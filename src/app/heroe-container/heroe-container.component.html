@@ -1,0 +1,12 @@
+<div class="parent">
+  <button type="button" (click)="toggleChild()">
+   {{hasChild ? '[-] Destroy' : '[+] Create'}} a Heroe 
+  </button>
+
+  <div class="info">
+    <heroe *ngIf="hasChild" [name]="heroName"></heroe>
+
+    <h3>Output lifecycles ({{ hookLog.length }}): </h3>
+    <div *ngFor="let msg of hookLog" class="log">{{msg}}</div>
+  </div>
+</div>
