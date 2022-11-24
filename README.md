@@ -1,4 +1,4 @@
-![alt text](https://angular.io/assets/images/logos/angular/logo-nav@2x.png)
+![alt text](https://github.com/aissam-ahbar/angular-components-lifecycles/blob/main/src/assets/hooks.png?raw=true)
 
 # Angular Lifecyles with Heroe Create & Destroy 
 
